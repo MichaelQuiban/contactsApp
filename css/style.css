@@ -4,59 +4,6 @@ label, input[type='submit'] {
     font-weight: bold;
 }
 
-/* Center the page */
-.body {
-    display: block;
-    margin: 0 auto;
-    width: 576px;
-}
-
-/* Form reads top to bottom */
-label  {
-    display: block;
-    margin-top: 20px;
-    letter-spacing: 1px;
-    cursor: text;
-}
-
-/* Form is centered */
-form {
-    margin: 0 auto;
-    width: 459px;
-}
-
-/* Styling on input areas */
-input, textarea {
-    width: 439px;
-    height: 27px;
-    padding: 5px;
-    margin-top: 3px;
-    font-size: 0.9em;
-    background: #E3F2FD;
-    border: 1px solid #686963;
-    color: #3a3a3a;
-    /*Fancy borders*/
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    /*End*/
-}
-
-/* Styling on the submit button */
-input[type='submit'] {
-    width: 127px;
-    height: 38px;
-    border:none;
-    margin-top: 20px;
-    cursor: pointer;
-    color: #000;
-}
-
-/* Cool little color change when hovered */
-input[type='submit']:hover {
-    color: #686963;
-}
-
 /* contact information shown: individual styling */
 #first-name-show, #last-name-show {
     font-weight: bold;
@@ -82,9 +29,6 @@ input[type='submit']:hover {
     width: 200px;
     height: 200px;
     padding: 5px;
-    /* Placement (This will be different in the future) */ 
-    margin: 0 auto;
-    /* End */   
     font-size: 1.4em;
     font-family: 'Open Sans Condensed', sans-serif;
 }
