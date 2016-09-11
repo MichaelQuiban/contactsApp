@@ -1,3 +1,14 @@
-#hello{
-	color:blue;
+/* Center the page */
+.body {
+	display: block;
+	margin: 0 auto;
+	width: 576px;
 }
+
+/* Form reads top to bottom */
+label  {
+	display: block;
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+
