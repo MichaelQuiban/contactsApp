@@ -57,3 +57,31 @@ input[type='submit']:hover {
     color: #686963;
 }
 
+/* contact information shown: individual styling */
+#first-name, #last-name {
+    font-weight: bold;
+    display: inline;
+}
+
+#city, #state {
+    font-weight: initial;
+    display: inline;
+}
+
+#street {
+    font-weight: bold;
+}
+
+#phone-number {
+    font-style: italic;
+}
+
+#info-show {
+    border: solid 1px;
+    width: 200px;
+    height: 200px;
+    font-size: 1.4em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* End */
