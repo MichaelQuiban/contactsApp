@@ -1,50 +1,50 @@
 /* Styling differences for the submit button, and labels */
 label, input[type='submit'] {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
 }
 
 /* Center the page */
 .body {
-	display: block;
-	margin: 0 auto;
-	width: 576px;
+    display: block;
+    margin: 0 auto;
+    width: 576px;
 }
 
 /* Form reads top to bottom */
 label  {
-	display: block;
-	margin-top: 20px;
-	letter-spacing: 1px;
-	cursor: text;
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    cursor: text;
 }
 
 /* Form is centered */
 form {
-	margin: 0 auto;
-	width: 459px;
+    margin: 0 auto;
+    width: 459px;
 }
 
 /* Styling on text boxes */
 input, textarea {
-	width: 439px;
-	height: 27px;
-	padding: 5px;
-	margin-top: 3px;
-	font-size: 0.9em;
-	background: #E3F2FD;
-	border: 1px solid #686963;
-	color: #3a3a3a;
-	/*Fancy borders*/
-	-moz-border-radius: 4px;
+    width: 439px;
+    height: 27px;
+    padding: 5px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    background: #E3F2FD;
+    border: 1px solid #686963;
+    color: #3a3a3a;
+    /*Fancy borders*/
+    -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
-	/*End*/
+    /*End*/
 }
 
 /* Styling on the submit button */
 input[type='submit'] {
-	width: 127px;
+    width: 127px;
     height: 38px;
     border:none;
     margin-top: 20px;
@@ -53,6 +53,7 @@ input[type='submit'] {
 }
 
 /* Cool little color change when hovered */
-input[type='submit']:hover{
-	color: #686963;
+input[type='submit']:hover {
+    color: #686963;
 }
+
