@@ -9,18 +9,16 @@
 label  {
 	display: block;
 	margin-top: 20px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 /* Form is centered */
-
 form {
 	margin: 0 auto;
 	width: 459px;
 }
 
 /* Styling on text boxes */
-
 input, textarea {
 	width: 439px;
 	height: 27px;
@@ -30,4 +28,9 @@ input, textarea {
 	background: #E3F2FD;
 	border: 1px solid #686963;
 	color: #3a3a3a;
+	/*Fancy borders*/
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+	/*End*/
 }
