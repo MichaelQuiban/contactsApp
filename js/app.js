@@ -1,11 +1,13 @@
 $(document).ready(function(){
 
 
-//Each contact should be stored as an object with a number of properties
-
-//Submitting a form should create a new object with whatever properties submitted.
-
-//Users can't submit without a minimum amount of information
-
+/*
+1. Store Contacts as an object
+2. Submitting a form creates an object.
+3. Object should have Name, Number, Street, Area.
+4. 
+5.
+6.
+*/
 
 });

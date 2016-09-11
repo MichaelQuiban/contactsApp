@@ -58,22 +58,22 @@ input[type='submit']:hover {
 }
 
 /* contact information shown: individual styling */
-#first-name, #last-name {
+#first-name-show, #last-name-show {
     font-weight: bold;
     display: inline;
     color: #DB5461;
 }
 
-#city, #state {
+#city-show, #state-show {
     font-weight: initial;
     display: inline;
 }
 
-#street {
+#street-show {
     font-weight: bold;
 }
 
-#phone-number {
+#phone-number-show {
     font-style: italic;
 }
 
@@ -82,9 +82,8 @@ input[type='submit']:hover {
     width: 200px;
     height: 200px;
     padding: 5px;
-    /* Placement */ 
+    /* Placement (This will be different in the future) */ 
     margin: 0 auto;
-
     /* End */   
     font-size: 1.4em;
     font-family: 'Open Sans Condensed', sans-serif;
