@@ -7,9 +7,6 @@ $(document).ready(function(){
 //3. First Name and Last Name are placed under 'Contacts'
 //4. User clicks First Name and Last name and displays within 'info-show'
 
-	//The contact information will go here.
-	var contacts = [];
-
 	//Function that creates an object and display it.
 	function showContact() {
 			// Serialize and create an object out of form data.
@@ -19,7 +16,7 @@ $(document).ready(function(){
 			// Nested function to handle the serialized data and append it.
 		$.each( forms, function ( i, forms ) {
 			// Append the form data that was serialized.
-			$("#contact-info").append( forms.value + "<br></br>");
+			$("#contact-info").append( "<a>" + forms.value + "</a>" + " ");
 		});
 	}
 	//Perform the showContact function when submit is clicked.
