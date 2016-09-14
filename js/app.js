@@ -12,14 +12,14 @@ $(document).ready(function(){
 
 	//Function that creates an object and display it.
 	function showContact() {
-			// Serial and create an object out of form data.
+			// Serialize and create an object out of form data.
 		var forms = $("#contact-form").serializeArray();
-			// Empty the contact info when we're done serialized.
+			// Empty the contact info when we're done serializing.
 		$("#contact-info").empty();
 			// Nested function to handle the serialized data and append it.
-		jQuery.each( forms, function ( i, form ) {
+		$.each( forms, function ( i, forms ) {
 			// Append the form data that was serialized.
-			$("#contact-info").append( form.value + "<br></br>");
+			$("#contact-info").append( forms.value + "<br></br>");
 		});
 	}
 	//Perform the showContact function when submit is clicked.
