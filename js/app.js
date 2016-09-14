@@ -10,11 +10,21 @@ $(document).ready(function(){
 	//The contact information will go here.
 	var contacts = [];
 
-	//Create object from form creation.
-	$("#contact-form").submit(function(event) {
-		console.log( $(this).serializeArray() );
-		event.preventDefault();
-	});
+	//Function that creates an object and display it.
+	function showContact() {
+			// Serial and create an object out of form data.
+		var forms = $("#contact-form").serializeArray();
+			// Empty the contact info when we're done serialized.
+		$("#contact-info").empty();
+			// Nested function to handle the serialized data and append it.
+		jQuery.each( forms, function ( i, form ) {
+			// Append the form data that was serialized.
+			$("#contact-info").append( form.value + "<br></br>");
+		});
+	}
+	//Perform the showContact function when submit is clicked.
+	$("#submit").click(showContact);
+	showContact();
 
 	
 
