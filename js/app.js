@@ -20,10 +20,11 @@ $(document).ready(function(){
 		});
 	}
 	//Perform the showContact function when submit is clicked.
-	$("#submit").click(showContact);
+	$("#submit").click(function() {
+		$("#submit").click(showContact);
+		event.preventDefault();
+	});
+
 	showContact();
-
-	
-
 
 });
