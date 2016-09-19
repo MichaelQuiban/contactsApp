@@ -32,7 +32,6 @@ $(document).ready(function() {
         var newContact = new Contact(firstname, lastname, phonenumber, street, city, state);
         contacts.push(newContact);
         $("#contact-list").append("<li class='contact-name'>"+ newContact.fullname + "</li>");
-        //clear the info show
     });
 
     $(document).on("click", ".contact-name", function(newContact) {
@@ -40,7 +39,11 @@ $(document).ready(function() {
     	console.log(selectedContact.city);
     	$("#info-show").empty();
     	//repeat
-    	$("#info-show").append("<p class='user-info'>"+ newContact.phonenumber +"</p>");
+    	$("#info-show").append("<p class='user-info active'>"+ selectedContact.fullname +"</p>");
+    	$("#info-show").append("<p class='user-info'>"+ selectedContact.phonenumber +"</p>");
+    	$("#info-show").append("<p class='user-info'>"+ selectedContact.street +"</p>");
+    	$("#info-show").append("<p class='user-info'>"+ selectedContact.city +"</p>");
+    	$("#info-show").append("<p class='user-info'>"+ selectedContact.state +"</p>");
 
     });
 

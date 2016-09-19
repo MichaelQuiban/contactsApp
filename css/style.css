@@ -33,5 +33,9 @@ label, input[type='submit'] {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 /* End */
+.contact-list {
+    margin-top: 20px;
+
+}
 
 
